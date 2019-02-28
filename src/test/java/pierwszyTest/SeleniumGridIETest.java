@@ -19,7 +19,7 @@ public class SeleniumGridIETest {
         internetExplorerOptions.ignoreZoomSettings();
         internetExplorerOptions.setCapability("version","8");
 
-        driver = new RemoteWebDriver(new URL("http:/192.168.1.4:4444/wd/hub"),internetExplorerOptions);
+        driver = new RemoteWebDriver(new URL("http:/192.168.0.105:4444/wd/hub"),internetExplorerOptions);
     }
 
 }
