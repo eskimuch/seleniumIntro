@@ -1,5 +1,6 @@
 package jpetstore.tests;
 
+import io.qameta.allure.Description;
 import jpetstore.driver.manager.DriverUtils;
 import jpetstore.page.objects.LoginPage;
 import org.testng.annotations.Test;
@@ -10,6 +11,8 @@ import static org.testng.AssertJUnit.assertTrue;
 public class PositiveLoginTests extends TestBase{
 
     @Test
+    @Description("The goal of this test is to log in using proper username and password" +
+            " and check if Dog Banner is displayed after")
     public void asUserLoginUsingValidLoginAndPassword(){
         DriverUtils.navigateToPage(LOGIN_URL);
 

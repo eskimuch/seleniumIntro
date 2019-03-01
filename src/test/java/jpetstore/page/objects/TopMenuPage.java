@@ -1,5 +1,6 @@
 package jpetstore.page.objects;
 
+import io.qameta.allure.Step;
 import jpetstore.driver.manager.DriverManager;
 import jpetstore.waits.WaitForElement;
 import org.apache.logging.log4j.LogManager;
@@ -19,6 +20,7 @@ public class TopMenuPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
+    @Step("Click on Sign In Link")
     public LoginPage clickOnSignInLink(){
         WaitForElement.waitUntilElementIsClickable(signOnLink);
         signOnLink.click();

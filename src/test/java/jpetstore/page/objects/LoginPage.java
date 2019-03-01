@@ -1,5 +1,6 @@
 package jpetstore.page.objects;
 
+import io.qameta.allure.Step;
 import jpetstore.driver.manager.DriverManager;
 import jpetstore.waits.WaitForElement;
 import org.apache.logging.log4j.LogManager;
@@ -31,6 +32,7 @@ public class LoginPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
+    @Step("Type into User Name Field {username}")
     public LoginPage typeIntoUserNameField(String username){
         WaitForElement.waitUntilElementIsVisible(usernameField);
         usernameField.clear();
@@ -39,6 +41,7 @@ public class LoginPage {
         return this;
     }
 
+    @Step("Type into Password Field {password}")
     public LoginPage typeIntoPasswordField(String password){
         passwordField.clear();
         passwordField.sendKeys(password);
@@ -46,12 +49,14 @@ public class LoginPage {
         return this;
     }
 
+    @Step("Click on Login Button")
     public FooterPage clickOnLoginButton(){
         signOnButton.click();
         logger.info("Clicked on Login Button");
         return new FooterPage();
     }
 
+    @Step("Getting warning message from Login Page")
     public String getWarningMessage(){
         WaitForElement.waitUntilElementIsVisible(messageLabel);
         String warningText = messageLabel.getText();
@@ -59,6 +64,7 @@ public class LoginPage {
         return warningText;
     }
 
+    @Step("Click on Fish Image Top Button")
     public FishListPage  clickOnTopFishImageButton(){
         WaitForElement.waitUntilElementIsClickable(fishTopImageButton);
         fishTopImageButton.click();
