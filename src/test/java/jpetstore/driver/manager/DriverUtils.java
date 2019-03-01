@@ -1,14 +1,15 @@
 package jpetstore.driver.manager;
 
-import java.util.concurrent.TimeUnit;
+import io.qameta.allure.Step;
 
 public class DriverUtils {
 
+    @Step("Maximizing browser window")
     public static void setInitialConfiguration(){
-        //DriverManager.getWebDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         DriverManager.getWebDriver().manage().window().maximize();
     }
 
+    @Step("Navigating to URL: {pageUrl}")
     public static void navigateToPage(String pageUrl){
         DriverManager.getWebDriver().navigate().to(pageUrl);
     }

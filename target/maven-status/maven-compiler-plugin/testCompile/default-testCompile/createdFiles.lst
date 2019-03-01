@@ -8,8 +8,10 @@ pierwszyTest\FluentWaitTests2.class
 jpetstore\configuration\ConfigurationProperties.class
 pierwszyTest\ExplicitWaitTests.class
 jpetstore\driver\manager\BrowserFactory$1.class
+pierwszyTest\SeleniumGridExampleTest.class
 jpetstore\page\objects\ShoppingCartPage.class
 jpetstore\driver\manager\DriverManager.class
+pierwszyTest\SeleniumGridIETest.class
 jpetstore\configuration\PropertiesLoader.class
 pierwszyTest\DropDownTests.class
 jpetstore\page\objects\LoginPage.class

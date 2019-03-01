@@ -1,5 +1,6 @@
 package jpetstore.page.objects;
 
+import io.qameta.allure.Step;
 import jpetstore.driver.manager.DriverManager;
 import jpetstore.waits.WaitForElement;
 import org.apache.logging.log4j.LogManager;
@@ -19,6 +20,7 @@ public class FooterPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
+    @Step("Getting is dog banner is displayed")
     public boolean isBannerAfterLoginDisplayed(){
         WaitForElement.waitUntilElementIsVisible(bannerAfterLoginLogo);
         boolean isDisplayed = bannerAfterLoginLogo.isDisplayed();

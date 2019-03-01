@@ -1,5 +1,6 @@
 package jpetstore.page.objects;
 
+import io.qameta.allure.Step;
 import jpetstore.driver.manager.DriverManager;
 import jpetstore.waits.WaitForElement;
 import org.apache.logging.log4j.LogManager;
@@ -20,6 +21,7 @@ public class LandingPage {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
+    @Step("Click on Enter Store link")
     public TopMenuPage clickOnEnterStoreLink(){
         WaitForElement.waitUntilElementIsClickable(enterStoreLink);
         enterStoreLink.click();

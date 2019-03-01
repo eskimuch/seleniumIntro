@@ -1,4 +1,5 @@
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\page\objects\LoginPage.java
+D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\pierwszyTest\SeleniumGridIETest.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\page\objects\TopMenuPage.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\configuration\ConfigurationProperties.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\tests\FailedLoginTests.java
@@ -29,6 +30,7 @@ D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\tests\TestBase.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\pierwszyTest\DropDownTests.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\page\objects\FooterPage.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\pierwszyTest\SecondAutomatedTest.java
+D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\pierwszyTest\SeleniumGridExampleTest.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\tests\PositiveLoginTests.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\navigation\ApplicationURLs.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\pierwszyTest\WebElementsActionClassTest.java
