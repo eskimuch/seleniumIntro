@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.634" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18.064" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="D:\Programy\Java\jdk-10.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\eskim\AppData\Local\Temp\surefire8018450728065094018\surefirebooter15251213425327790373.jar C:\Users\eskim\AppData\Local\Temp\surefire8018450728065094018 2019-03-02T16-05-22_602-jvmRun1 surefire17804170716383834645tmp surefire_011348493048589739334tmp"/>
+    <property name="sun.java.command" value="C:\Users\eskim\AppData\Local\Temp\surefire16568897824644476118\surefirebooter14321661322233698201.jar C:\Users\eskim\AppData\Local\Temp\surefire16568897824644476118 2019-03-02T19-42-33_054-jvmRun1 surefire7635491581037200751tmp surefire_03211461581580298898tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Programy\Maven\Dzuk\seleniumintro\target\test-classes;D:\Programy\Maven\Dzuk\seleniumintro\target\classes;C:\Users\eskim\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\eskim\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\eskim\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\eskim\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;C:\Users\eskim\.m2\repository\io\qameta\allure\allure-testng\2.6.0\allure-testng-2.6.0.jar;C:\Users\eskim\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.6.0\allure-descriptions-javadoc-2.6.0.jar;C:\Users\eskim\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\eskim\.m2\repository\io\qameta\allure\allure-java-commons\2.6.0\allure-java-commons-2.6.0.jar;C:\Users\eskim\.m2\repository\io\qameta\allure\allure2-model-api\1.0-BETA6\allure2-model-api-1.0-BETA6.jar;C:\Users\eskim\.m2\repository\io\qameta\allure\allure2-model-pojo\1.0-BETA6\allure2-model-pojo-1.0-BETA6.jar;C:\Users\eskim\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\eskim\.m2\repository\io\qameta\allure\allure2-model-jackson\1.0-BETA6\allure2-model-jackson-1.0-BETA6.jar;C:\Users\eskim\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.7.0\jackson-databind-2.7.0.jar;C:\Users\eskim\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;C:\Users\eskim\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.7.0\jackson-core-2.7.0.jar;C:\Users\eskim\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;C:\Users\eskim\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\eskim\.m2\repository\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;C:\Users\eskim\.m2\repository\org\jooq\joor\0.9.6\joor-0.9.6.jar;C:\Users\eskim\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\eskim\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\eskim\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\eskim\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\eskim\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\eskim\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\eskim\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\eskim\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\eskim\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\eskim\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\eskim\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\eskim\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\eskim\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\eskim\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\eskim\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\eskim\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\eskim\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\eskim\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\eskim\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\eskim\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\eskim\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\eskim\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\eskim\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\eskim\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar;C:\Users\eskim\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -35,7 +35,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\eskim\AppData\Local\Temp\surefire8018450728065094018\surefirebooter15251213425327790373.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\eskim\AppData\Local\Temp\surefire16568897824644476118\surefirebooter14321661322233698201.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="10.0.2+13"/>
@@ -62,6 +62,315 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="54.0"/>
   </properties>
-  <testcase name="asUserTryToLogInWithIncorrectLoginAndPassword" classname="jpetstore.tests.FailedLoginTests" time="0.716"/>
-  <testcase name="asUserLoginUsingValidLoginAndPassword" classname="jpetstore.tests.PositiveLoginTests" time="0.88"/>
+  <testcase name="asUserTryToLogInWithIncorrectLoginAndPassword" classname="jpetstore.tests.FailedLoginTests" time="0.188"/>
+  <testcase name="asUserLoginUsingValidLoginAndPassword" classname="jpetstore.tests.PositiveLoginTests" time="11.112">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: #Banner img[src*=&apos;dog&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: #Banner img[src*='dog']' (tried for 10 second(s) with 500 milliseconds interval)
+	at jpetstore.tests.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword(PositiveLoginTests.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+	at jpetstore.tests.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword(PositiveLoginTests.java:24)
+</failure>
+    <system-out><![CDATA[[INFO ] 2019-03-02 19:42:40.648 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Found element with locator By.name: username
+[INFO ] 2019-03-02 19:42:40.654 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to enter empty string or clear element: input
+[INFO ] 2019-03-02 19:42:40.702 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Entered empty string or cleared element: input
+[INFO ] 2019-03-02 19:42:40.702 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.name: username
+[INFO ] 2019-03-02 19:42:40.706 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Found element with locator By.name: username
+[INFO ] 2019-03-02 19:42:40.706 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to type into element: input text [j]
+[INFO ] 2019-03-02 19:42:40.772 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Typed into element: input text [j]
+[INFO ] 2019-03-02 19:42:40.773 [TestNG-tests-2] jpetstore.page.objects.LoginPage - Typed into User Name Field j
+[INFO ] 2019-03-02 19:42:40.774 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.name: password
+[INFO ] 2019-03-02 19:42:40.793 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Found element with locator By.name: password
+[INFO ] 2019-03-02 19:42:40.798 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to enter empty string or clear element: input
+[INFO ] 2019-03-02 19:42:40.833 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Entered empty string or cleared element: input
+[INFO ] 2019-03-02 19:42:40.834 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.name: password
+[INFO ] 2019-03-02 19:42:40.846 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Found element with locator By.name: password
+[INFO ] 2019-03-02 19:42:40.854 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to type into element: input text [j2ee]
+[INFO ] 2019-03-02 19:42:40.912 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Typed into element: input text [j2ee]
+[INFO ] 2019-03-02 19:42:40.913 [TestNG-tests-2] jpetstore.page.objects.LoginPage - Typed into Password Field j2ee
+[INFO ] 2019-03-02 19:42:40.913 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.name: signon
+[INFO ] 2019-03-02 19:42:40.926 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Found element with locator By.name: signon
+[INFO ] 2019-03-02 19:42:40.932 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to click on element with tag name: input
+[INFO ] 2019-03-02 19:42:41.159 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Clicked on element
+[INFO ] 2019-03-02 19:42:41.160 [TestNG-tests-2] jpetstore.page.objects.LoginPage - Clicked on Login Button
+[INFO ] 2019-03-02 19:42:41.161 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:41.186 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:41.690 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:41.702 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:42.212 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:42.243 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:42.755 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:42.764 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:43.272 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:43.296 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:43.807 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:43.817 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:44.319 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:44.349 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:44.855 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:44.878 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:45.380 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:45.391 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:45.905 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:45.930 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:46.444 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:46.475 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:46.987 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:47.000 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:47.505 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:47.535 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:48.052 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:48.062 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:48.571 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:48.582 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:49.088 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:49.120 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:49.636 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:49.653 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:50.155 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:50.185 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:50.688 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:50.712 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:51.219 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:51.243 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:51.243 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to find element with locator By.cssSelector: #Banner img[src*='dog']
+[INFO ] 2019-03-02 19:42:51.253 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - There was an exception with message: no such element: Unable to locate element: {"method":"css selector","selector":"#Banner img[src*='dog']"}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KUM2H3I', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*='dog']}
+[INFO ] 2019-03-02 19:42:51.258 [TestNG-tests-2] jpetstore.utils.testng.listeners.TestListener - Test asUserLoginUsingValidLoginAndPassword failed!
+[INFO ] 2019-03-02 19:42:51.261 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Trying to get screenshot
+[INFO ] 2019-03-02 19:42:51.571 [TestNG-tests-2] jpetstore.driver.manager.listeners.DriverEventListener - Done screenshot
+]]></system-out>
+    <system-err><![CDATA[1551552160645	Marionette	INFO	Stopped listening on port 64454
+[Child 5920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 23432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11912, Chrome_ChildThread] WARNING: pipe error: 109[Parent 23432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/s[GPU 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+]]></system-err>
+  </testcase>
 </testsuite>

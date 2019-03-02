@@ -9,14 +9,62 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">All Pet Store Tests</th></tr>
-<tr><td><a href="#t0">Negative Login Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">6 369</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Positive Login Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">6 510</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">12 879</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Negative Login Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">5 299</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Positive Login Tests</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">16 315</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num attn">1</th><th class="num">21 614</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Pet Store Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Negative Login Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">jpetstore.tests.FailedLoginTests</td><td><a href="#m0">asUserTryToLogInWithIncorrectLoginAndPassword</a></td><td rowspan="1">1551539129690</td><td rowspan="1">895</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Positive Login Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">jpetstore.tests.PositiveLoginTests</td><td><a href="#m1">asUserLoginUsingValidLoginAndPassword</a></td><td rowspan="1">1551539129875</td><td rowspan="1">880</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Pet Store Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Negative Login Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">jpetstore.tests.FailedLoginTests</td><td><a href="#m0">asUserTryToLogInWithIncorrectLoginAndPassword</a></td><td rowspan="1">1551552159678</td><td rowspan="1">949</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Positive Login Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">jpetstore.tests.PositiveLoginTests</td><td><a href="#m1">asUserLoginUsingValidLoginAndPassword</a></td><td rowspan="1">1551552160367</td><td rowspan="1">10888</td></tr></tbody>
 </table>
 <h2>Negative Login Tests</h2><h3 id="m0">jpetstore.tests.FailedLoginTests#asUserTryToLogInWithIncorrectLoginAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Positive Login Tests</h2><h3 id="m1">jpetstore.tests.PositiveLoginTests#asUserLoginUsingValidLoginAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Positive Login Tests</h2><h3 id="m1">jpetstore.tests.PositiveLoginTests#asUserLoginUsingValidLoginAndPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: #Banner img[src*=&apos;dog&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at jpetstore.waits.WaitForElement.waitUntilElementIsVisible(WaitForElement.java:16)
+	at jpetstore.page.objects.FooterPage.isBannerAfterLoginDisplayed_aroundBody0(FooterPage.java:25)
+	at jpetstore.page.objects.FooterPage$AjcClosure1.run(FooterPage.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at jpetstore.page.objects.FooterPage.isBannerAfterLoginDisplayed(FooterPage.java:25)
+	at jpetstore.tests.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword(PositiveLoginTests.java:24)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#Banner img[src*=&apos;dog&apos;]&quot;}
+  (Session info: chrome=72.0.3626.119)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KUM2H3I&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;10.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\eskim\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64458}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
+Session ID: 8ffc206514cda932efdb52ac98cf6cd8
+*** Element info: {Using=css selector, value=#Banner img[src*=&apos;dog&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy28.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy45.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -28,13 +28,17 @@ jpetstore\driver\manager\BrowserType.class
 jpetstore\page\objects\FishListPage.class
 jpetstore\tests\FailedLoginTests.class
 jpetstore\tests\ShoppingCartTest.class
+jpetstore\utils\testng\listeners\TestListener.class
 pierwszyTest\CheckBoxesTests.class
 pierwszyTest\WebElementsActionClassTest.class
 jpetstore\configuration\LocalWebDriverProperties.class
 pierwszyTest\FirstAutomatedTest.class
+jpetstore\driver\manager\listeners\DriverEventListener.class
 jpetstore\tests\PositiveLoginTests.class
+jpetstore\utils\ScreenShotMaker.class
 pierwszyTest\FileUploadTests.class
 jpetstore\driver\manager\DriverUtils.class
 jpetstore\page\objects\TopMenuPage.class
 assertsCalc\Calculator.class
+jpetstore\driver\manager\listeners\WebDriverEventListenerRegistrar.class
 jpetstore\page\objects\FooterPage.class
