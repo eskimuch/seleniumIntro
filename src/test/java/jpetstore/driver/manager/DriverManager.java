@@ -1,5 +1,6 @@
 package jpetstore.driver.manager;
 
+import jpetstore.driver.manager.listeners.WebDriverEventListenerRegistrar;
 import org.openqa.selenium.WebDriver;
 
 import static jpetstore.configuration.TestRunProperties.getBrowserToRun;
@@ -22,6 +23,9 @@ public class DriverManager {
         } else {
             browser = new BrowserFactory(browserType).getBrowser();
         }
+
+        browser = WebDriverEventListenerRegistrar.registerWebDriverEventListener(browser);
+
         browserTypeThreadLocal.set(browserType);
         webDriverThreadLocal.set(browser);
     }

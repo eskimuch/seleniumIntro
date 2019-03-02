@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LandingPage {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(LandingPage.class);
 
     @FindBy (css = "#Content a")
     private WebElement enterStoreLink;

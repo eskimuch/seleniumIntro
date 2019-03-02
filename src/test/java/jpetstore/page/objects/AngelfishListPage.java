@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class AngelfishListPage {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(AngelfishListPage.class);
 
     @FindBy(css = "a[href*='workingItemId=EST-2']")
     private WebElement addToCartSmallAngelfishButton;
