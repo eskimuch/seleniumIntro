@@ -11,6 +11,7 @@ D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\pierwszyTest\WebElementsTests
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\driver\manager\BrowserType.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\tests\ShoppingCartTest.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\configuration\AppProperties.java
+D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\configuration\TestRunProperties.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\page\objects\CheckoutPage.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\page\objects\AngelfishListPage.java
 D:\Programy\Maven\Dzuk\seleniumintro\src\test\java\jpetstore\page\objects\FishListPage.java

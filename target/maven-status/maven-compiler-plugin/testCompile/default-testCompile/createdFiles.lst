@@ -1,4 +1,5 @@
 assertsCalc\CalculatorTest.class
+jpetstore\configuration\TestRunProperties.class
 jpetstore\navigation\ApplicationURLs.class
 pierwszyTest\HoverTests.class
 pierwszyTest\WebElementsTests.class

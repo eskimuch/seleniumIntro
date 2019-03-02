@@ -2,44 +2,58 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-03-01T20:13:13Z" name="All Pet Store Tests" finished-at="2019-03-01T20:13:29Z" duration-ms="15631">
+  <suite started-at="2019-03-02T15:05:24Z" name="All Pet Store Tests" finished-at="2019-03-02T15:05:31Z" duration-ms="6510">
     <groups>
     </groups>
-    <test started-at="2019-03-01T20:13:13Z" name="Negative Login Tests" finished-at="2019-03-01T20:13:22Z" duration-ms="9538">
+    <test started-at="2019-03-02T15:05:24Z" name="Negative Login Tests" finished-at="2019-03-02T15:05:31Z" duration-ms="6369">
       <class name="jpetstore.tests.FailedLoginTests">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:jpetstore.tests.FailedLoginTests@40ee0a22]" started-at="2019-03-01T20:13:13Z" name="beforeClass" finished-at="2019-03-01T20:13:14Z" duration-ms="1448" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:jpetstore.tests.FailedLoginTests@4158debd]" started-at="2019-03-02T15:05:24Z" name="beforeClass" finished-at="2019-03-02T15:05:25Z" duration-ms="515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:jpetstore.tests.FailedLoginTests@40ee0a22]" started-at="2019-03-01T20:13:14Z" name="beforeTest" finished-at="2019-03-01T20:13:20Z" duration-ms="5645" status="PASS">
+        <test-method is-config="true" signature="beforeTest(jpetstore.driver.manager.BrowserType)[pri:0, instance:jpetstore.tests.FailedLoginTests@4158debd]" started-at="2019-03-02T15:05:25Z" name="beforeTest" finished-at="2019-03-02T15:05:29Z" duration-ms="4067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:jpetstore.tests.FailedLoginTests@40ee0a22]" started-at="2019-03-01T20:13:20Z" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2019-03-01T20:13:22Z" duration-ms="1390" status="PASS">
+        <test-method signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:jpetstore.tests.FailedLoginTests@4158debd]" started-at="2019-03-02T15:05:29Z" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2019-03-02T15:05:30Z" duration-ms="895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:jpetstore.tests.FailedLoginTests@40ee0a22]" started-at="2019-03-01T20:13:22Z" name="afterTest" finished-at="2019-03-01T20:13:22Z" duration-ms="749" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:jpetstore.tests.FailedLoginTests@4158debd]" started-at="2019-03-02T15:05:30Z" name="afterTest" finished-at="2019-03-02T15:05:31Z" duration-ms="673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- jpetstore.tests.FailedLoginTests -->
     </test> <!-- Negative Login Tests -->
-    <test started-at="2019-03-01T20:13:23Z" name="Positive Login Tests" finished-at="2019-03-01T20:13:29Z" duration-ms="6006">
+    <test started-at="2019-03-02T15:05:24Z" name="Positive Login Tests" finished-at="2019-03-02T15:05:31Z" duration-ms="6510">
       <class name="jpetstore.tests.PositiveLoginTests">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:jpetstore.tests.PositiveLoginTests@388b401d]" started-at="2019-03-01T20:13:23Z" name="beforeTest" finished-at="2019-03-01T20:13:27Z" duration-ms="4014" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:jpetstore.tests.PositiveLoginTests@388b401d]" started-at="2019-03-01T20:13:23Z" name="beforeClass" finished-at="2019-03-01T20:13:23Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:jpetstore.tests.PositiveLoginTests@1f443fae]" started-at="2019-03-02T15:05:24Z" name="beforeClass" finished-at="2019-03-02T15:05:25Z" duration-ms="796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:jpetstore.tests.PositiveLoginTests@388b401d]" started-at="2019-03-01T20:13:27Z" name="asUserLoginUsingValidLoginAndPassword" finished-at="2019-03-01T20:13:28Z" duration-ms="1244" status="PASS">
+        <test-method is-config="true" signature="beforeTest(jpetstore.driver.manager.BrowserType)[pri:0, instance:jpetstore.tests.PositiveLoginTests@1f443fae]" started-at="2019-03-02T15:05:25Z" name="beforeTest" finished-at="2019-03-02T15:05:29Z" duration-ms="4143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:jpetstore.tests.PositiveLoginTests@1f443fae]" started-at="2019-03-02T15:05:29Z" name="asUserLoginUsingValidLoginAndPassword" finished-at="2019-03-02T15:05:30Z" duration-ms="880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asUserLoginUsingValidLoginAndPassword -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:jpetstore.tests.PositiveLoginTests@388b401d]" started-at="2019-03-01T20:13:28Z" name="afterTest" finished-at="2019-03-01T20:13:29Z" duration-ms="738" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:jpetstore.tests.PositiveLoginTests@1f443fae]" started-at="2019-03-02T15:05:30Z" name="afterTest" finished-at="2019-03-02T15:05:31Z" duration-ms="656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

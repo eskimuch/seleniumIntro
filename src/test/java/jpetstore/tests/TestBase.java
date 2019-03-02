@@ -3,11 +3,10 @@ package jpetstore.tests;
 import io.qameta.allure.Step;
 import jpetstore.configuration.ConfigurationProperties;
 import jpetstore.configuration.PropertiesLoader;
+import jpetstore.driver.manager.BrowserType;
 import jpetstore.driver.manager.DriverManager;
 import jpetstore.driver.manager.DriverUtils;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 import java.util.Properties;
 
@@ -24,8 +23,10 @@ public class TestBase {
     }
 
     @Step("Setting up browser type and navigating to Home Page")
+    @Parameters("browser")
     @BeforeMethod
-    public void beforeTest(){
+    public void beforeTest(@Optional BrowserType browserType){
+        DriverManager.setWebDriver(browserType);
         DriverManager.getWebDriver();
         DriverUtils.setInitialConfiguration();
         DriverUtils.navigateToPage(APPLICATION_URL);
