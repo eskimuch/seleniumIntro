@@ -8,7 +8,13 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class BrowserFactory {
 
-    public static WebDriver getBrowser(BrowserType browserType){
+    private BrowserType browserType;
+
+    public BrowserFactory(BrowserType browserType) {
+        this.browserType = browserType;
+    }
+
+    public WebDriver getBrowser(){
         switch (browserType){
             case CHROME:
                 System.setProperty("webdriver.chrome.driver", LocalWebDriverProperties.getChromeWebDriverLocation());
