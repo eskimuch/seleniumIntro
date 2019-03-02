@@ -1,30 +1,20 @@
 package jpetstore.page.objects;
 
 import io.qameta.allure.Step;
-import jpetstore.driver.manager.DriverManager;
 import jpetstore.waits.WaitForElement;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class FooterPage {
-
-    private Logger logger = LogManager.getLogger(FooterPage.class);
+public class FooterPage extends BasePage{
 
     @FindBy(css = "#Banner img[src*='dog']")
     private WebElement bannerAfterLoginLogo;
-
-    public FooterPage() {
-        PageFactory.initElements(DriverManager.getWebDriver(), this);
-    }
 
     @Step("Getting is dog banner is displayed")
     public boolean isBannerAfterLoginDisplayed(){
         WaitForElement.waitUntilElementIsVisible(bannerAfterLoginLogo);
         boolean isDisplayed = bannerAfterLoginLogo.isDisplayed();
-        logger.info("Returning status of banner after login: {}", isDisplayed);
+        log().info("Returning status of banner after login: {}", isDisplayed);
         return isDisplayed;
     }
 }
